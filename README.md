@@ -173,7 +173,15 @@ Aggregate Metrics (综合平均分 / 题型细分 / 最佳&最差用例)
 ### 1. 后端服务配置
 
 ```bash
+git clone https://github.com/hhlin-dev/IRIS.git
+cd IRIS
+```
+
+### 2. 后端服务配置
+
+```bash
 cd backend
+
 python -m venv venv
 source venv/bin/activate    # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -189,7 +197,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 *Swagger 文档：`http://localhost:8000/docs`*
 
-### 2. 前端服务配置
+### 3. 前端服务配置
 
 ```bash
 cd ../frontend
@@ -206,7 +214,7 @@ python start.py --stop    # 停止所有服务
 python start.py --clean   # 清理环境
 ```
 
-### 3. 运行自动化评测
+### 4. 运行自动化评测
 
 ```bash
 cd backend
