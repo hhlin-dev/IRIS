@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# API Keys
+.env
+*.env
+!*.env.example
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Runtime data
+backend/app/api/checkpoints.db
+backend/app/rag/chroma_db/
+backend/app/rag/uploads/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+
+# Logs
+.logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Evaluation reports (keep only latest)
+backend/evaluation_reports/evaluation_2*.json
+backend/evaluation_reports/evaluation_2*.md
+!backend/evaluation_reports/evaluation_latest.json
+!backend/evaluation_reports/evaluation_latest.md

@@ -1,0 +1,269 @@
+{
+  "generated_at": "2026-05-29T14:41:02.904712+00:00",
+  "total_elapsed_ms": 594740,
+  "test_cases_count": 8,
+  "summary": {
+    "total_cases": 8,
+    "errors": 0,
+    "avg_scores": {
+      "relevance": 5.0,
+      "completeness": 4.2,
+      "accuracy": 4.9,
+      "structure": 5.0,
+      "overall_score": 94.9
+    },
+    "reviewer_first_pass_rate": 100.0,
+    "avg_revisions": 1.0,
+    "should_stop_rate": 0.0,
+    "category_breakdown": {
+      "technical_explanation": 94.0,
+      "comparative_analysis": 94.0,
+      "trend_analysis": 95.0,
+      "methodology": 100.0,
+      "security": 94.0,
+      "architecture_design": 94.0
+    },
+    "top_performer": {
+      "case_id": "tc_005",
+      "overall_score": 100.0
+    },
+    "needs_improvement": {
+      "case_id": "tc_001",
+      "overall_score": 94.0
+    }
+  },
+  "results": [
+    {
+      "case_id": "tc_001",
+      "category": "technical_explanation",
+      "query": "什么是 Transformer 架构中的自注意力机制（Self-Attention）？请解释其计算流程。",
+      "graph": {
+        "review_status": "PASS",
+        "revision_number": 1,
+        "should_stop": false,
+        "search_results_count": 6,
+        "plan_steps": [
+          "Transformer 自注意力机制原理",
+          "Self-Attention 计算步骤",
+          "Query Key Value 向量在自注意力中的作用",
+          "缩放点积注意力公式",
+          "多头自注意力机制流程"
+        ],
+        "error": null
+      },
+      "judge": {
+        "relevance": 5,
+        "completeness": 4,
+        "accuracy": 5,
+        "structure": 5,
+        "overall_comment": "报告非常详细地解释了自注意力机制及其计算流程，逻辑清晰且内容丰富。最大的优点在于对缩放点积注意力的深入解析以及与RNN/CNN相比的优势说明。最需要改进的地方是稍微补充一下多头注意力的具体实现细节，这将使报告更加全面。",
+        "overall_score": 94.0,
+        "judge_errors": []
+      },
+      "elapsed_ms": 74463
+    },
+    {
+      "case_id": "tc_002",
+      "category": "comparative_analysis",
+      "query": "比较 RAG（检索增强生成）和传统微调方案在大模型应用中的优缺点。",
+      "graph": {
+        "review_status": "PASS",
+        "revision_number": 1,
+        "should_stop": false,
+        "search_results_count": 5,
+        "plan_steps": [
+          "RAG vs 微调 大模型 优缺点",
+          "RAG 检索增强生成 适用场景 局限性",
+          "大模型微调 成本 数据需求",
+          "RAG 实时更新知识 能力",
+          "微调模型 泛化能力 对比 RAG"
+        ],
+        "error": null
+      },
+      "judge": {
+        "relevance": 5,
+        "completeness": 4,
+        "accuracy": 5,
+        "structure": 5,
+        "overall_comment": "报告非常相关且结构清晰，逻辑性强。最大的优点在于其对RAG和微调方案的对比全面而深入，尤其是在知识更新与时效性、幻觉控制能力方面。最需改进的地方是关于成本对比部分可以更具体地分析不同规模下的成本差异；同时，虽然提到了系统维护复杂度，但未充分展开讨论。",
+        "overall_score": 94.0,
+        "judge_errors": []
+      },
+      "elapsed_ms": 60668
+    },
+    {
+      "case_id": "tc_003",
+      "category": "trend_analysis",
+      "query": "2024-2025 年 AI Agent 领域最重要的技术突破有哪些？",
+      "graph": {
+        "review_status": "PASS",
+        "revision_number": 1,
+        "should_stop": false,
+        "search_results_count": 5,
+        "plan_steps": [
+          "2024-2025年AI Agent关键技术突破",
+          "多智能体协作最新进展2024",
+          "AI Agent自主决策能力提升2025",
+          "具身智能与AI Agent融合进展",
+          "大模型驱动的AI Agent架构创新"
+        ],
+        "error": null
+      },
+      "judge": {
+        "relevance": 5,
+        "completeness": 5,
+        "accuracy": 4,
+        "structure": 5,
+        "overall_comment": "报告全面且深入地探讨了2024-2025年AI Agent领域的五大关键技术突破，与用户问题高度相关。结构清晰，易于阅读。准确性方面稍有不足，部分技术细节和数据来源的引用可以更具体一些以增强可信度。",
+        "overall_score": 95.0,
+        "judge_errors": []
+      },
+      "elapsed_ms": 68556
+    },
+    {
+      "case_id": "tc_004",
+      "category": "technical_explanation",
+      "query": "请解释 LangGraph 中 StateGraph 和条件边（Conditional Edge）的概念及它们如何协同工作。",
+      "graph": {
+        "review_status": "PASS",
+        "revision_number": 1,
+        "should_stop": false,
+        "search_results_count": 5,
+        "plan_steps": [
+          "LangGraph StateGraph 作用",
+          "LangGraph 条件边 Conditional Edge 用法",
+          "StateGraph 与 Conditional Edge 协同工作示例",
+          "LangGraph 状态管理机制",
+          "LangGraph 控制流条件路由"
+        ],
+        "error": null
+      },
+      "judge": {
+        "relevance": 5,
+        "completeness": 4,
+        "accuracy": 5,
+        "structure": 5,
+        "overall_comment": "报告对StateGraph和条件边的概念及其协同工作方式进行了深入且准确的解析，结构清晰易读。最需要改进的地方是补充Checkpointer持久化机制的作用以及与LCEL线性链的具体对比分析。",
+        "overall_score": 94.0,
+        "judge_errors": []
+      },
+      "elapsed_ms": 46118
+    },
+    {
+      "case_id": "tc_005",
+      "category": "methodology",
+      "query": "如何科学地评估一个 RAG 系统的检索质量？请列出关键指标和方法。",
+      "graph": {
+        "review_status": "PASS",
+        "revision_number": 1,
+        "should_stop": false,
+        "search_results_count": 5,
+        "plan_steps": [
+          "RAG系统检索质量评估指标",
+          "RAG检索相关性评价方法",
+          "RAG系统召回率与精确率计算",
+          "RAG检索结果人工评估标准",
+          "RAG系统端到端性能评测"
+        ],
+        "error": null
+      },
+      "judge": {
+        "relevance": 5,
+        "completeness": 5,
+        "accuracy": 5,
+        "structure": 5,
+        "overall_comment": "报告全面覆盖了用户询问的关键方面，信息准确且组织结构清晰易读。没有明显需要改进的地方，是一份优秀的技术报告。",
+        "overall_score": 100.0,
+        "judge_errors": []
+      },
+      "elapsed_ms": 67097
+    },
+    {
+      "case_id": "tc_006",
+      "category": "security",
+      "query": "大模型应用中的 Prompt 注入攻击有哪些常见形式？如何防御？",
+      "graph": {
+        "review_status": "PASS",
+        "revision_number": 1,
+        "should_stop": false,
+        "search_results_count": 5,
+        "plan_steps": [
+          "大模型 Prompt 注入攻击常见类型",
+          "Prompt 注入攻击防御方法",
+          "LLM 安全防护机制",
+          "Prompt 注入检测技术",
+          "对抗性提示工程"
+        ],
+        "error": null
+      },
+      "judge": {
+        "relevance": 5,
+        "completeness": 4,
+        "accuracy": 5,
+        "structure": 5,
+        "overall_comment": "报告全面且深入地探讨了大模型应用中的Prompt注入攻击及其防御措施，逻辑清晰、组织良好。最大的优点在于详细列举了多种攻击形式并提供了具体的防御策略；最需要改进的地方是对于直接注入与间接注入的区别以及权限隔离与最小权限原则的讨论略显不足。",
+        "overall_score": 94.0,
+        "judge_errors": []
+      },
+      "elapsed_ms": 66022
+    },
+    {
+      "case_id": "tc_007",
+      "category": "technical_explanation",
+      "query": "什么是 MCP（Model Context Protocol）协议？它解决了 AI 应用中的什么问题？",
+      "graph": {
+        "review_status": "PASS",
+        "revision_number": 1,
+        "should_stop": false,
+        "search_results_count": 5,
+        "plan_steps": [
+          "MCP Model Context Protocol 定义",
+          "MCP 协议在 AI 应用中的作用",
+          "MCP 解决的 AI 上下文管理问题",
+          "Model Context Protocol 开发者或组织",
+          "MCP 与其他 AI 协议对比"
+        ],
+        "error": null
+      },
+      "judge": {
+        "relevance": 5,
+        "completeness": 4,
+        "accuracy": 5,
+        "structure": 5,
+        "overall_comment": "报告非常相关且结构清晰，信息准确。在完整性方面做得很好，但可以进一步探讨 MCP 在 Agent 系统中的实际应用案例以增加深度。",
+        "overall_score": 94.0,
+        "judge_errors": []
+      },
+      "elapsed_ms": 73496
+    },
+    {
+      "case_id": "tc_008",
+      "category": "architecture_design",
+      "query": "Agent 系统中的记忆管理有哪些设计模式？各自的适用场景是什么？",
+      "graph": {
+        "review_status": "PASS",
+        "revision_number": 1,
+        "should_stop": false,
+        "search_results_count": 5,
+        "plan_steps": [
+          "Agent系统记忆管理设计模式",
+          "Agent记忆架构类型及应用场景",
+          "长期记忆与短期记忆在Agent中的实现方式",
+          "基于向量数据库的Agent记忆机制",
+          "Agent记忆检索增强生成（RAG）模式"
+        ],
+        "error": null
+      },
+      "judge": {
+        "relevance": 5,
+        "completeness": 4,
+        "accuracy": 5,
+        "structure": 5,
+        "overall_comment": "报告非常相关且准确地回答了用户问题，结构清晰、排版美观。最大的优点在于详细描述了几种设计模式及其适用场景。最需要改进的地方是稍微补充一下向量记忆和Token预算管理与裁剪策略的内容。",
+        "overall_score": 94.0,
+        "judge_errors": []
+      },
+      "elapsed_ms": 79870
+    }
+  ]
+}
